@@ -1,0 +1,53 @@
+h1 {
+    font-size: 50pt;
+    font-weight: bolder;
+    text-shadow: 3px 2px red;
+}
+
+h2 {
+    font-size: 30pt;
+    font-weight: bold;
+    text-shadow: 3px 2px orange;
+}
+
+p.toc {
+    text-align: left;
+    margin: 10;
+    text-transform: uppercase;
+    color: #85144b;
+}
+
+body {
+	font-family: cursive;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/8/84/Parchment.00.jpg);
+	margin: 25%;
+	text-align: justify;
+}
+
+div {
+    display: block;
+    margin: 5%;
+    text-align: justify;
+}
+
+div.fig { 
+	display:block;
+    margin:0 auto;
+    text-align:center; 
+    opacity: 0.85;
+    filter: grayscale(50%);
+}
+
+a:link {
+    color:#001f3f; 
+    text-decoration:underline overline wavy blue;
+}
+
+a:visited {
+    color:#AAAAAA; 
+    text-decoration:none;
+}
+
+a:hover {
+    color:#FF851B
+}

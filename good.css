@@ -1,0 +1,69 @@
+body { 
+  display: grid;
+  grid-template-areas: 
+    "nav sArticle"
+    "nav article";
+  grid-template-rows: 38% 1fr;  
+  grid-template-columns: 20% 1fr;
+  grid-row-gap: 10px;
+  grid-column-gap: 10px;
+  height: 100vh;
+  margin: 0;
+  font-family: "Gill Sans", sans-serif;
+  color: white;
+}  
+
+footer, article, nav{
+  padding: 1.2em;
+  background: black;
+}
+#mainArticle { 
+  grid-area: article;      
+}
+#subArticle {
+  grid-area: sArticle;
+}
+#mainNav { 
+  grid-area: nav; 
+}
+
+.image1 {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 3px;
+  width: 150px;
+  opacity: 0.85;
+  border-radius: 20%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.image2 {
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  padding: 3px;
+  display:inline-block;
+  float: right;
+  margin-right: 20%;
+  margin-top: 1%;
+  width: 25%;
+}
+
+h1,h2 {
+  text-align: left;
+  font-size: 25px;
+  text-decoration-style: dashed;
+  font-weight: bold;
+  text-shadow: 1px 1px #e4fc0d;
+  color: red;
+}
+
+div.a {
+  font-size: 20px;
+  color: white;
+}
+
+table {
+  float: left;
+}
