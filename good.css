@@ -11,6 +11,7 @@ body {
   margin: 0;
   font-family: "Gill Sans", sans-serif;
   color: white;
+  
 }  
 
 footer, article, nav{
@@ -50,6 +51,12 @@ footer, article, nav{
   width: 25%;
 }
 
+.image3 {
+  height: 200px;
+  width: 250px;
+  border: 2px solid yellow;
+
+}
 h1,h2 {
   text-align: left;
   font-size: 25px;
@@ -62,6 +69,8 @@ h1,h2 {
 div.a {
   font-size: 20px;
   color: white;
+  text-indent: 50px;
+  line-height: 200%;
 }
 
 table {
